@@ -1,13 +1,15 @@
-// learning basics data type in typescript
+/* learning basics data type in typescript 
+number, boolean, string
+
+*/
 
 let personName: string;
-let obejctper: any;
+let age: number;
+let isStudent: boolean;
 
 personName = "james";
-
-obejctper = {
-  hello: 123,
-};
+age = 39;
+isStudent = false;
 
 console.log(personName);
-console.log(obejctper);
+console.log(age);
